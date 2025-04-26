@@ -1,5 +1,4 @@
 import { DirectClient, messageHandlerTemplate } from "@elizaos/client-direct";
-import { AgentRuntime, stringToUuid } from "@elizaos/core/dist";
 import {
   Content,
   Memory,
@@ -8,6 +7,8 @@ import {
   generateMessageResponse,
   ModelClass,
   getEmbeddingZeroVector,
+  AgentRuntime,
+  stringToUuid,
 } from "@elizaos/core";
 import path from "path";
 import axios from "axios";
