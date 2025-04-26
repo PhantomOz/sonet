@@ -93,6 +93,7 @@ async function startAgent(character: Character, directClient: SonetClient) {
     runtime.clients = await initializeClients(character, runtime);
 
     directClient.registerAgent(runtime);
+    directClient.addAgent(runtime);
 
     // report to console
     elizaLogger.debug(`Started ${character.name} as ${runtime.agentId}`);

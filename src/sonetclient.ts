@@ -26,7 +26,7 @@ type AgentMessageParams = {
 };
 
 export class SonetClient extends DirectClient {
-  public agent: AgentRuntime;
+  private agent: AgentRuntime;
   constructor() {
     super();
   }
@@ -254,5 +254,9 @@ export class SonetClient extends DirectClient {
         res.sendStatus(403);
       }
     });
+  }
+
+  addAgent(agent: AgentRuntime) {
+    this.agent = agent;
   }
 }
