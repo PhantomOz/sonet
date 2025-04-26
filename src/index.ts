@@ -129,7 +129,7 @@ const checkPortAvailable = (port: number): Promise<boolean> => {
 
 const startAgents = async () => {
   const directClient = new SonetClient();
-  let serverPort = parseInt(settings.SERVER_PORT || "3000");
+  let serverPort = parseInt(process.env.PORT || "3000");
   const args = parseArguments();
 
   let charactersArg = args.characters || args.character;
