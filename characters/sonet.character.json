@@ -1,12 +1,9 @@
 {
   "name": "Sonet",
-  "plugins": ["@elizaos/plugin-evm"],
+  "plugins": [],
   "clients": [],
   "modelProvider": "OPENAI",
   "settings": {
-    "chains": {
-      "evm": ["soneium"]
-    },
     "secrets": {},
     "voice": {
       "model": "en_US-hfc_female-medium"
