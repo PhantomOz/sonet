@@ -28,6 +28,7 @@
     "@elizaos/plugin-starknet": "0.1.9",
     "@tavily/core": "0.0.2",
     "amqplib": "0.10.5",
+    "axios": "^1.9.0",
     "better-sqlite3": "11.5.0",
     "fs": "0.0.1-security",
     "net": "1.0.2",

@@ -13,52 +13,55 @@ dependencies:
     version: 4.27.0(@babel/core@7.26.10)(@babel/preset-env@7.26.9)(react@18.2.0)(typescript@5.6.3)(viem@2.27.2)
   '@elizaos/adapter-postgres':
     specifier: 0.1.9
-    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
   '@elizaos/adapter-sqlite':
     specifier: 0.1.9
-    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
+    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
   '@elizaos/client-auto':
     specifier: 0.1.9
-    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
+    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
   '@elizaos/client-direct':
     specifier: 0.1.9
-    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.8.4)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
+    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.9.0)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
   '@elizaos/client-discord':
     specifier: 0.1.9
-    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(onnxruntime-node@1.20.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
+    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(onnxruntime-node@1.20.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
   '@elizaos/client-telegram':
     specifier: 0.1.9
-    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
   '@elizaos/client-twitter':
     specifier: 0.1.9
-    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
+    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
   '@elizaos/core':
     specifier: 0.1.9
-    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
   '@elizaos/plugin-bootstrap':
     specifier: 0.1.9
-    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
+    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
   '@elizaos/plugin-evm':
     specifier: 0.25.6-alpha.1
-    version: 0.25.6-alpha.1(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@solana/wallet-adapter-base@0.9.25)(@solana/web3.js@1.98.0)(axios@1.8.4)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(typescript@5.6.3)(viem@2.27.2)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
+    version: 0.25.6-alpha.1(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@solana/wallet-adapter-base@0.9.25)(@solana/web3.js@1.98.0)(axios@1.9.0)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(typescript@5.6.3)(viem@2.27.2)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
   '@elizaos/plugin-image-generation':
     specifier: 0.1.9
-    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
+    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
   '@elizaos/plugin-node':
     specifier: 0.1.9
-    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(onnxruntime-node@1.20.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
+    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(onnxruntime-node@1.20.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
   '@elizaos/plugin-solana':
     specifier: 0.1.9
-    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@noble/hashes@1.7.2)(@solana/buffer-layout@4.0.1)(@types/node@22.14.1)(arweave@1.15.7)(axios@1.8.4)(borsh@0.7.0)(buffer@6.0.1)(fastestsmallesttextencoderdecoder@1.0.22)(form-data@4.0.1)(got@11.8.6)(react@18.2.0)(sodium-native@3.4.1)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
+    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@noble/hashes@1.7.2)(@solana/buffer-layout@4.0.1)(@types/node@22.14.1)(arweave@1.15.7)(axios@1.9.0)(borsh@0.7.0)(buffer@6.0.1)(fastestsmallesttextencoderdecoder@1.0.22)(form-data@4.0.1)(got@11.8.6)(react@18.2.0)(sodium-native@3.4.1)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
   '@elizaos/plugin-starknet':
     specifier: 0.1.9
-    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.8.4)(ethers@6.13.5)(qs@6.14.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
+    version: 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.9.0)(ethers@6.13.5)(qs@6.14.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
   '@tavily/core':
     specifier: 0.0.2
     version: 0.0.2
   amqplib:
     specifier: 0.10.5
     version: 0.10.5
+  axios:
+    specifier: ^1.9.0
+    version: 1.9.0
   better-sqlite3:
     specifier: 11.5.0
     version: 11.5.0
@@ -868,14 +871,14 @@ packages:
       commander: 12.1.0
     dev: false
 
-  /@aptos-labs/aptos-client@1.2.0(axios@1.8.4)(got@11.8.6):
+  /@aptos-labs/aptos-client@1.2.0(axios@1.9.0)(got@11.8.6):
     resolution: {integrity: sha512-pBlIAT/W+Qa0TOr/318U8r0Gxw/jfyRLcvDGMEXgcVrPqO9Qhwsmozw6LPPIZ963FB7smwIaMeexWFDs3zijcg==}
     engines: {node: '>=15.10.0'}
     peerDependencies:
       axios: ^1.8.4
       got: ^11.8.6
     dependencies:
-      axios: 1.8.4
+      axios: 1.9.0
       got: 11.8.6
     dev: false
 
@@ -889,12 +892,12 @@ packages:
       '@aptos-labs/aptos-dynamic-transaction-composer': 0.1.3
     dev: false
 
-  /@aptos-labs/ts-sdk@1.38.0(axios@1.8.4)(got@11.8.6):
+  /@aptos-labs/ts-sdk@1.38.0(axios@1.9.0)(got@11.8.6):
     resolution: {integrity: sha512-cflGyknECg11wTkQ1o1OK759v1m+mpz0S0/ZXsHbPMO0dO6eQGLjH/Uk5/YWMe1Nat8/szcgIipKk8Xr6Unvzg==}
     engines: {node: '>=20.0.0'}
     dependencies:
       '@aptos-labs/aptos-cli': 1.0.2
-      '@aptos-labs/aptos-client': 1.2.0(axios@1.8.4)(got@11.8.6)
+      '@aptos-labs/aptos-client': 1.2.0(axios@1.9.0)(got@11.8.6)
       '@aptos-labs/script-composer-pack': 0.0.9
       '@noble/curves': 1.8.2
       '@noble/hashes': 1.7.2
@@ -3680,7 +3683,7 @@ packages:
       '@cosmjs/socket': 0.32.4
       '@cosmjs/stream': 0.32.4
       '@cosmjs/utils': 0.32.4
-      axios: 1.8.4
+      axios: 1.9.0
       readonly-date: 1.0.0
       xstream: 11.14.0
     transitivePeerDependencies:
@@ -3699,7 +3702,7 @@ packages:
       '@cosmjs/socket': 0.33.1
       '@cosmjs/stream': 0.33.1
       '@cosmjs/utils': 0.33.1
-      axios: 1.8.4
+      axios: 1.9.0
       readonly-date: 1.0.0
       xstream: 11.14.0
     transitivePeerDependencies:
@@ -4072,10 +4075,10 @@ packages:
       onnxruntime-node: 1.20.0
     dev: false
 
-  /@elizaos/adapter-postgres@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0):
+  /@elizaos/adapter-postgres@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0):
     resolution: {integrity: sha512-vkrxoL/7XJxSujJ8qWqVasIiuGzHvpJyo3Kk1kyAZxc3guExiPSYoGDki0ld1b+1LMPmU1qGS0GfFps4XXyMUQ==}
     dependencies:
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
       '@types/pg': 8.11.10
       pg: 8.13.1
     transitivePeerDependencies:
@@ -4106,12 +4109,12 @@ packages:
       - ws
     dev: false
 
-  /@elizaos/adapter-sqlite@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0):
+  /@elizaos/adapter-sqlite@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0):
     resolution: {integrity: sha512-r76heXuu3fcDYXyqxsSmAQ/X2KOeoZEY4BM/SPLI9aBd6xJewPC0ig6nRvAvoHBDaKgpBf3cwUvvz/MADCirCg==}
     peerDependencies:
       whatwg-url: 7.1.0
     dependencies:
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
       '@types/better-sqlite3': 7.6.12
       better-sqlite3: 11.6.0
       sqlite-vec: 0.1.6
@@ -4143,12 +4146,12 @@ packages:
       - ws
     dev: false
 
-  /@elizaos/client-auto@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0):
+  /@elizaos/client-auto@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0):
     resolution: {integrity: sha512-muSzOuC2RhhYFKNWw65dIStjFFy4JnZwnWwnT9ihBuzZvKcCyppXCHKXEpKgrZOqJAlofXoSYs5dv3DhTEasmw==}
     peerDependencies:
       whatwg-url: 7.1.0
     dependencies:
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
       '@types/body-parser': 1.19.5
       '@types/cors': 2.8.17
       '@types/express': 5.0.0
@@ -4183,15 +4186,15 @@ packages:
       - ws
     dev: false
 
-  /@elizaos/client-direct@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.8.4)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3):
+  /@elizaos/client-direct@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.9.0)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3):
     resolution: {integrity: sha512-OiWfuQjqL5+VncfpKQWCqlVGk+wYTyzh3aUz5+C5t3ZhKmrHZv88bkMzHD1yI28/czmP49v8y2vqvZyMLjB0rA==}
     peerDependencies:
       whatwg-url: 7.1.0
     dependencies:
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
-      '@elizaos/plugin-image-generation': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
-      '@elizaos/plugin-tee-log': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
-      '@elizaos/plugin-tee-verifiable-log': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.8.4)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/plugin-image-generation': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
+      '@elizaos/plugin-tee-log': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
+      '@elizaos/plugin-tee-verifiable-log': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.9.0)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
       '@types/body-parser': 1.19.5
       '@types/cors': 2.8.17
       '@types/express': 5.0.0
@@ -4255,7 +4258,7 @@ packages:
       - zod
     dev: false
 
-  /@elizaos/client-discord@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(onnxruntime-node@1.20.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0):
+  /@elizaos/client-discord@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(onnxruntime-node@1.20.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0):
     resolution: {integrity: sha512-R0dJmGdRDvv0OCGXBe89CAcFHBXM17QoJMNIREyPo/CghD+oUqhYTL6Vp/fI6Eb7VEHyUFBxMbyOCcHf8JK9Lg==}
     peerDependencies:
       whatwg-url: 7.1.0
@@ -4263,8 +4266,8 @@ packages:
       '@discordjs/opus': github.com/discordjs/opus/679ff3f58e6804b80becc166c7214deb2ca026e2
       '@discordjs/rest': 2.4.0
       '@discordjs/voice': 0.17.0(@discordjs/opus@0.10.0)
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
-      '@elizaos/plugin-node': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(onnxruntime-node@1.20.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.23.8)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/plugin-node': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(onnxruntime-node@1.20.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.23.8)
       discord.js: 14.16.3
       libsodium-wrappers: 0.7.15
       prism-media: 1.3.5(@discordjs/opus@0.10.0)
@@ -4311,10 +4314,10 @@ packages:
       - ws
     dev: false
 
-  /@elizaos/client-telegram@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0):
+  /@elizaos/client-telegram@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0):
     resolution: {integrity: sha512-gTpaM7GRWEy/Vsl0626mYE2dzlE5i7Zec9DjYYUkAYLT/R5Ibep8dkgHQOA+xWPG6H04fk1ZotdYPiBpyuJxZQ==}
     dependencies:
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
       '@telegraf/types': 7.1.0
       telegraf: 4.16.3
       zod: 3.23.8
@@ -4345,12 +4348,12 @@ packages:
       - ws
     dev: false
 
-  /@elizaos/client-twitter@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0):
+  /@elizaos/client-twitter@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0):
     resolution: {integrity: sha512-Hi3n8VeI0zXLH6xKKOGQYKqmN5zJ5CR/pqktGmYM+KFxcCX0oAnTCXn74wNtdurw2lzOQzH93EwUCjN6GwZ2Zw==}
     peerDependencies:
       whatwg-url: 7.1.0
     dependencies:
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
       agent-twitter-client: 0.0.18
       discord.js: 14.16.3
       glob: 11.0.0
@@ -4385,7 +4388,7 @@ packages:
       - ws
     dev: false
 
-  /@elizaos/core@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0):
+  /@elizaos/core@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0):
     resolution: {integrity: sha512-rsAAyiPfc0HWWNVrROdQfR0BonVCgb1D1EHi7gLCrag8ZZqGd3UI/xjSiAUmU73e0dPcEo/JQzteAoehZ/ouXQ==}
     dependencies:
       '@ai-sdk/amazon-bedrock': 1.1.0(zod@3.23.8)
@@ -4408,7 +4411,7 @@ packages:
       handlebars: 4.7.8
       js-sha1: 0.7.0
       js-tiktoken: 1.0.15
-      langchain: 0.3.6(@langchain/core@0.3.45)(axios@1.8.4)(handlebars@4.7.8)(openai@4.73.0)(ws@8.18.0)
+      langchain: 0.3.6(@langchain/core@0.3.45)(axios@1.9.0)(handlebars@4.7.8)(openai@4.73.0)(ws@8.18.0)
       ollama-ai-provider: 0.16.1(zod@3.23.8)
       openai: 4.73.0(zod@3.23.8)
       pino: 9.6.0
@@ -4445,7 +4448,7 @@ packages:
       - ws
     dev: false
 
-  /@elizaos/core@0.25.6-alpha.1(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(ws@8.18.0)(zod@3.24.3):
+  /@elizaos/core@0.25.6-alpha.1(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(ws@8.18.0)(zod@3.24.3):
     resolution: {integrity: sha512-JZEQfmyEDTyWtPyfAopG0Ztnnh5GqQxzdvJGGwWGAkVYO5uselQNiSeMDvuIsRArRHjQlLpg2cUqsv0Y3ngppA==}
     dependencies:
       '@ai-sdk/amazon-bedrock': 1.1.0(zod@3.24.3)
@@ -4468,7 +4471,7 @@ packages:
       handlebars: 4.7.8
       js-sha1: 0.7.0
       js-tiktoken: 1.0.15
-      langchain: 0.3.6(@langchain/core@0.3.45)(axios@1.8.4)(handlebars@4.7.8)(openai@4.82.0)(ws@8.18.0)
+      langchain: 0.3.6(@langchain/core@0.3.45)(axios@1.9.0)(handlebars@4.7.8)(openai@4.82.0)(ws@8.18.0)
       ollama-ai-provider: 0.16.1(zod@3.24.3)
       openai: 4.82.0(ws@8.18.0)(zod@3.24.3)
       pino: 9.6.0
@@ -4501,12 +4504,12 @@ packages:
       - zod
     dev: false
 
-  /@elizaos/plugin-bootstrap@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0):
+  /@elizaos/plugin-bootstrap@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0):
     resolution: {integrity: sha512-TDTw8xVpen/fpRgVJXGUEfMj4S5DGEtXZNTWvb4NSlA7HFL+ytg3cfcvEdp/DFiQh5kznTWd17QEyiGI0jdejw==}
     peerDependencies:
       whatwg-url: 7.1.0
     dependencies:
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
       tsup: 8.3.5(typescript@5.6.3)
       whatwg-url: 7.1.0
     transitivePeerDependencies:
@@ -4543,13 +4546,13 @@ packages:
       - yaml
     dev: false
 
-  /@elizaos/plugin-evm@0.25.6-alpha.1(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@solana/wallet-adapter-base@0.9.25)(@solana/web3.js@1.98.0)(axios@1.8.4)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(typescript@5.6.3)(viem@2.27.2)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3):
+  /@elizaos/plugin-evm@0.25.6-alpha.1(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@solana/wallet-adapter-base@0.9.25)(@solana/web3.js@1.98.0)(axios@1.9.0)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(typescript@5.6.3)(viem@2.27.2)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3):
     resolution: {integrity: sha512-cV2DIBqLfClGxvVgYdAS/iVmgrGGV1UNYF76RobTESqClcXzpN4AftJKEC/bBCn5h7aBHMHflt+aDGvztiZDFA==}
     peerDependencies:
       whatwg-url: 7.1.0
     dependencies:
-      '@elizaos/core': 0.25.6-alpha.1(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(ws@8.18.0)(zod@3.24.3)
-      '@elizaos/plugin-tee': 0.25.6-alpha.1(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(typescript@5.6.3)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
+      '@elizaos/core': 0.25.6-alpha.1(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(ws@8.18.0)(zod@3.24.3)
+      '@elizaos/plugin-tee': 0.25.6-alpha.1(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(typescript@5.6.3)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
       '@lifi/data-types': 5.15.5
       '@lifi/sdk': 3.4.1(@solana/wallet-adapter-base@0.9.25)(@solana/web3.js@1.98.0)(typescript@5.6.3)(viem@2.27.2)
       '@lifi/types': 16.3.0
@@ -4593,12 +4596,12 @@ packages:
       - zod
     dev: false
 
-  /@elizaos/plugin-image-generation@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0):
+  /@elizaos/plugin-image-generation@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0):
     resolution: {integrity: sha512-KOfxUk4+/qWKXdmMUv346cfxS48hmj++SjkGZSbsOBkJSKE1QTS+GGDWOyDovSp+nltTfFEfqv61yezSTXmIbw==}
     peerDependencies:
       whatwg-url: 7.1.0
     dependencies:
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
       tsup: 8.3.5(typescript@5.6.3)
       whatwg-url: 7.1.0
     transitivePeerDependencies:
@@ -4635,7 +4638,7 @@ packages:
       - yaml
     dev: false
 
-  /@elizaos/plugin-node@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(onnxruntime-node@1.20.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.23.8):
+  /@elizaos/plugin-node@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(onnxruntime-node@1.20.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.23.8):
     resolution: {integrity: sha512-PWyNGaGHflwBufss61oik1Z3QSRj+crxCmfdFU28HRRNNTDuMAe3q6TQyI8hG6mDXML3emoWL883svlwmKy8Wg==}
     requiresBuild: true
     peerDependencies:
@@ -4648,7 +4651,7 @@ packages:
       '@echogarden/espeak-ng-emscripten': 0.3.3
       '@echogarden/kissfft-wasm': 0.2.0
       '@echogarden/speex-resampler-wasm': 0.2.1
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
       '@huggingface/transformers': 3.0.2
       '@opendocsg/pdf2md': 0.1.32
       '@types/uuid': 10.0.0
@@ -4735,7 +4738,7 @@ packages:
       - zod
     dev: false
 
-  /@elizaos/plugin-node@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(onnxruntime-node@1.20.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3):
+  /@elizaos/plugin-node@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(onnxruntime-node@1.20.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3):
     resolution: {integrity: sha512-PWyNGaGHflwBufss61oik1Z3QSRj+crxCmfdFU28HRRNNTDuMAe3q6TQyI8hG6mDXML3emoWL883svlwmKy8Wg==}
     requiresBuild: true
     peerDependencies:
@@ -4748,7 +4751,7 @@ packages:
       '@echogarden/espeak-ng-emscripten': 0.3.3
       '@echogarden/kissfft-wasm': 0.2.0
       '@echogarden/speex-resampler-wasm': 0.2.1
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
       '@huggingface/transformers': 3.0.2
       '@opendocsg/pdf2md': 0.1.32
       '@types/uuid': 10.0.0
@@ -4835,10 +4838,10 @@ packages:
       - zod
     dev: false
 
-  /@elizaos/plugin-sgx@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0):
+  /@elizaos/plugin-sgx@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0):
     resolution: {integrity: sha512-/hKSd1eMtUegefUrwmUkdh6IL8pZxg4n+hRxYPVwWPj6YjfAwzCnfUPvdE8fYQn3nvQEy06DkMFqLgF7VQzfLQ==}
     dependencies:
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
     transitivePeerDependencies:
       - '@google-cloud/vertexai'
       - '@langchain/anthropic'
@@ -4866,16 +4869,16 @@ packages:
       - ws
     dev: false
 
-  /@elizaos/plugin-solana@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@noble/hashes@1.7.2)(@solana/buffer-layout@4.0.1)(@types/node@22.14.1)(arweave@1.15.7)(axios@1.8.4)(borsh@0.7.0)(buffer@6.0.1)(fastestsmallesttextencoderdecoder@1.0.22)(form-data@4.0.1)(got@11.8.6)(react@18.2.0)(sodium-native@3.4.1)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3):
+  /@elizaos/plugin-solana@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@noble/hashes@1.7.2)(@solana/buffer-layout@4.0.1)(@types/node@22.14.1)(arweave@1.15.7)(axios@1.9.0)(borsh@0.7.0)(buffer@6.0.1)(fastestsmallesttextencoderdecoder@1.0.22)(form-data@4.0.1)(got@11.8.6)(react@18.2.0)(sodium-native@3.4.1)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3):
     resolution: {integrity: sha512-cqw2YnWzFvpH2PU6WEKZzUn+BpKGSprTyNhkCHSV/lQTX+ekLSHsinxmAGZD54xQjSgv62g5Kw17sbObJBgRwA==}
     peerDependencies:
       form-data: 4.0.1
       whatwg-url: 7.1.0
     dependencies:
       '@coral-xyz/anchor': 0.30.1
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
-      '@elizaos/plugin-tee': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
-      '@elizaos/plugin-trustdb': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/plugin-tee': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
+      '@elizaos/plugin-trustdb': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
       '@solana/spl-token': 0.4.9(@solana/web3.js@1.95.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)
       '@solana/web3.js': 1.95.8
       bignumber.js: 9.1.2
@@ -4961,14 +4964,14 @@ packages:
       - zod-to-json-schema
     dev: false
 
-  /@elizaos/plugin-starknet@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.8.4)(ethers@6.13.5)(qs@6.14.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0):
+  /@elizaos/plugin-starknet@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.9.0)(ethers@6.13.5)(qs@6.14.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0):
     resolution: {integrity: sha512-qrBN+DQUOfaBtwgK6eoHa6/JwSYdm70vNsXGexvPqnQ3MtSFewaUxud6Vfx42DKGJcEsGI6xzRVbgfpJN66jiw==}
     peerDependencies:
       whatwg-url: 7.1.0
     dependencies:
       '@avnu/avnu-sdk': 2.1.1(ethers@6.13.5)(qs@6.14.0)(starknet@6.18.0)
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
-      '@elizaos/plugin-trustdb': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/plugin-trustdb': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)
       '@uniswap/sdk-core': 6.0.0
       '@unruggable_starknet/core': 0.1.0(starknet@6.18.0)
       starknet: 6.18.0
@@ -5026,12 +5029,12 @@ packages:
       - yaml
     dev: false
 
-  /@elizaos/plugin-tee-log@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3):
+  /@elizaos/plugin-tee-log@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3):
     resolution: {integrity: sha512-bt/zkOl5ucfRTI7sswFbRbF8e5mYf8bpZjExONZqumytEs5JZ2moJ8mxdFQexmv3pUM7M+Mkm1CqADhH0Jc/aw==}
     dependencies:
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
-      '@elizaos/plugin-sgx': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
-      '@elizaos/plugin-tee': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/plugin-sgx': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/plugin-tee': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
       better-sqlite3: 11.6.0
       elliptic: 6.6.1
     transitivePeerDependencies:
@@ -5074,13 +5077,13 @@ packages:
       - zod
     dev: false
 
-  /@elizaos/plugin-tee-verifiable-log@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.8.4)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3):
+  /@elizaos/plugin-tee-verifiable-log@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.9.0)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3):
     resolution: {integrity: sha512-mOGA+RgcHBjNIkS6Sc3g+0xmUhK7/p0NlaF95tq7wS30avCllREmrI7K5+cUY2p8eRxtxvhpeX05oaDh/2cpAg==}
     peerDependencies:
       whatwg-url: 7.1.0
     dependencies:
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
-      '@elizaos/plugin-tee': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/plugin-tee': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3)
       dompurify: 3.2.2
       elliptic: 6.6.1
       ethereum-cryptography: 3.1.0
@@ -5141,12 +5144,12 @@ packages:
       - zod
     dev: false
 
-  /@elizaos/plugin-tee@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3):
+  /@elizaos/plugin-tee@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3):
     resolution: {integrity: sha512-RjmLSATLqXIKG0XWADskNBkYpMCCsbS5+GwmAdJcGR6CiagdJkOHdERJXW3b4i3C1Dq+Qos/mzzAiHF3Szhxww==}
     peerDependencies:
       whatwg-url: 7.1.0
     dependencies:
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
       '@phala/dstack-sdk': 0.1.7(typescript@5.6.3)(zod@3.24.3)
       '@solana/spl-token': 0.4.9(@solana/web3.js@1.95.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)
       '@solana/web3.js': 1.95.8
@@ -5195,12 +5198,12 @@ packages:
       - zod
     dev: false
 
-  /@elizaos/plugin-tee@0.25.6-alpha.1(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(typescript@5.6.3)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3):
+  /@elizaos/plugin-tee@0.25.6-alpha.1(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(fastestsmallesttextencoderdecoder@1.0.22)(react@18.2.0)(typescript@5.6.3)(whatwg-url@7.1.0)(ws@8.18.0)(zod@3.24.3):
     resolution: {integrity: sha512-J/MwYW6nskvVXfVpYgkUN2bwyacHu9jv4PjvAqIZGeehidrrM5b19qAHFPs8YLsGAZ7jSk0F7U6siPdJ305CFQ==}
     peerDependencies:
       whatwg-url: 7.1.0
     dependencies:
-      '@elizaos/core': 0.25.6-alpha.1(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(ws@8.18.0)(zod@3.24.3)
+      '@elizaos/core': 0.25.6-alpha.1(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(ws@8.18.0)(zod@3.24.3)
       '@phala/dstack-sdk': 0.1.7(typescript@5.6.3)(zod@3.24.3)
       '@solana/spl-token': 0.4.9(@solana/web3.js@1.95.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)
       '@solana/web3.js': 1.95.8
@@ -5245,12 +5248,12 @@ packages:
       - zod
     dev: false
 
-  /@elizaos/plugin-trustdb@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0):
+  /@elizaos/plugin-trustdb@0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(@types/node@22.14.1)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(typescript@5.6.3)(vue@3.5.13)(whatwg-url@7.1.0)(ws@8.18.0):
     resolution: {integrity: sha512-rVwxSoOqzOQjp5FyUEbtrdhDtzmaTFi27TzsS2BD/h5mYhEz0Le+P4MWRHcNwZfBo6gFHqFjMA++/M4UpHA7/A==}
     peerDependencies:
       whatwg-url: 7.1.0
     dependencies:
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.8.4)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3)(@langchain/core@0.3.45)(axios@1.9.0)(react@18.2.0)(svelte@5.28.1)(vue@3.5.13)(ws@8.18.0)
       dompurify: 3.2.2
       tsup: 8.3.5(typescript@5.6.3)
       uuid: 11.0.3
@@ -6548,7 +6551,7 @@ packages:
       '@metamask/eth-sig-util': 4.0.1
       '@noble/curves': 1.8.2
       '@noble/hashes': 1.7.2
-      axios: 1.8.4
+      axios: 1.9.0
       bech32: 2.0.0
       bip39: 3.1.0
       cosmjs-types: 0.9.0
@@ -6584,7 +6587,7 @@ packages:
       '@injectivelabs/exceptions': 1.14.47
       '@injectivelabs/networks': 1.14.47
       '@injectivelabs/ts-types': 1.14.47
-      axios: 1.8.4
+      axios: 1.9.0
       bignumber.js: 9.2.1
       http-status-codes: 2.3.0
     transitivePeerDependencies:
@@ -6596,7 +6599,7 @@ packages:
     dependencies:
       asn1.js: 5.4.1
       async-retry: 1.3.3
-      axios: 1.8.4
+      axios: 1.9.0
       base64-js: 1.5.1
       bignumber.js: 9.2.1
     transitivePeerDependencies:
@@ -6608,7 +6611,7 @@ packages:
     dependencies:
       asn1.js: 5.4.1
       async-retry: 1.3.3
-      axios: 1.8.4(debug@4.4.0)
+      axios: 1.9.0(debug@4.4.0)
       base64-js: 1.5.1
       bignumber.js: 9.2.1
     transitivePeerDependencies:
@@ -6679,7 +6682,7 @@ packages:
     engines: {node: '>=16.10.0'}
     dependencies:
       async-retry: 1.3.3
-      axios: 1.8.4(debug@4.4.0)
+      axios: 1.9.0(debug@4.4.0)
     transitivePeerDependencies:
       - debug
     dev: false
@@ -6689,7 +6692,7 @@ packages:
     engines: {node: '>=16.10.0'}
     dependencies:
       async-retry: 1.3.3
-      axios: 1.8.4
+      axios: 1.9.0
     transitivePeerDependencies:
       - debug
     dev: false
@@ -6699,7 +6702,7 @@ packages:
     engines: {node: '>=16.10.0'}
     dependencies:
       async-retry: 1.3.3
-      axios: 1.8.4
+      axios: 1.9.0
     transitivePeerDependencies:
       - debug
     dev: false
@@ -6725,7 +6728,7 @@ packages:
       aptos: 1.8.5(debug@4.4.0)
       arbundles: 0.10.1(arweave@1.15.7)(debug@4.4.0)
       async-retry: 1.3.3
-      axios: 1.8.4(debug@4.4.0)
+      axios: 1.9.0(debug@4.4.0)
       base64url: 3.0.1
       bignumber.js: 9.2.1
       bs58: 5.0.0
@@ -6749,7 +6752,7 @@ packages:
     deprecated: 'Arweave support is deprecated - We recommend migrating to the Irys datachain: https://migrate-to.irys.xyz/'
     hasBin: true
     dependencies:
-      '@aptos-labs/ts-sdk': 1.38.0(axios@1.8.4)(got@11.8.6)
+      '@aptos-labs/ts-sdk': 1.38.0(axios@1.9.0)(got@11.8.6)
       '@ethersproject/bignumber': 5.8.0
       '@ethersproject/contracts': 5.8.0
       '@ethersproject/providers': 5.8.0
@@ -6764,7 +6767,7 @@ packages:
       algosdk: 1.24.1
       arbundles: 0.11.2(arweave@1.15.7)
       async-retry: 1.3.3
-      axios: 1.8.4
+      axios: 1.9.0
       base64url: 3.0.1
       bignumber.js: 9.2.1
       bs58: 5.0.0
@@ -6791,7 +6794,7 @@ packages:
       '@irys/query': 0.0.9
       '@supercharge/promise-pool': 3.2.0
       async-retry: 1.3.3
-      axios: 1.8.4
+      axios: 1.9.0
       base64url: 3.0.1
       bignumber.js: 9.2.1
     transitivePeerDependencies:
@@ -6809,7 +6812,7 @@ packages:
       '@irys/query': 0.0.9
       '@supercharge/promise-pool': 3.2.0
       async-retry: 1.3.3
-      axios: 1.8.4
+      axios: 1.9.0
       base64url: 3.0.1
       bignumber.js: 9.2.1
     transitivePeerDependencies:
@@ -6848,7 +6851,7 @@ packages:
       '@irys/bundles': 0.0.1(arweave@1.15.7)
       '@irys/upload-core': 0.0.9(arweave@1.15.7)
       async-retry: 1.3.3
-      axios: 1.8.4
+      axios: 1.9.0
       base64url: 3.0.1
       bignumber.js: 9.2.1
       csv-parse: 5.6.0
@@ -6869,7 +6872,7 @@ packages:
       '@irys/bundles': 0.0.3(arweave@1.15.7)
       '@irys/upload-core': 0.0.10(arweave@1.15.7)
       async-retry: 1.3.3
-      axios: 1.8.4
+      axios: 1.9.0
       base64url: 3.0.1
       bignumber.js: 9.2.1
       csv-parse: 5.6.0
@@ -6912,7 +6915,7 @@ packages:
       '@irys/bundles': 0.0.1(arweave@1.15.7)
       '@irys/upload-core': 0.0.9(arweave@1.15.7)
       async-retry: 1.3.3
-      axios: 1.8.4
+      axios: 1.9.0
       base64url: 3.0.1
       bignumber.js: 9.2.1
       mime-types: 2.1.35
@@ -6930,7 +6933,7 @@ packages:
       '@irys/bundles': 0.0.3(arweave@1.15.7)
       '@irys/upload-core': 0.0.10(arweave@1.15.7)
       async-retry: 1.3.3
-      axios: 1.8.4
+      axios: 1.9.0
       base64url: 3.0.1
       bignumber.js: 9.2.1
       mime-types: 2.1.35
@@ -9233,10 +9236,10 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@pythnetwork/hermes-client@1.4.0(axios@1.8.4):
+  /@pythnetwork/hermes-client@1.4.0(axios@1.9.0):
     resolution: {integrity: sha512-nOOlqFgnSjFLcOUeKjfCxPOYShp4VW9/pTUB7D7OFjgmdJ3hPbSadR9rajurGc4zl2N4NbqR2O/ZMdYkAFaddQ==}
     dependencies:
-      '@zodios/core': 10.9.6(axios@1.8.4)(zod@3.24.3)
+      '@zodios/core': 10.9.6(axios@1.9.0)(zod@3.24.3)
       eventsource: 3.0.6
       zod: 3.24.3
     transitivePeerDependencies:
@@ -9249,7 +9252,7 @@ packages:
     dependencies:
       '@pythnetwork/price-service-sdk': 1.8.0
       '@types/ws': 8.18.1
-      axios: 1.8.4
+      axios: 1.9.0
       axios-retry: 3.9.1
       isomorphic-ws: 4.0.1(ws@8.18.0)
       ts-log: 2.2.7
@@ -9319,7 +9322,7 @@ packages:
       '@solana/buffer-layout': 4.0.1
       '@solana/spl-token': 0.4.9(@solana/web3.js@1.98.0)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)
       '@solana/web3.js': 1.98.0
-      axios: 1.8.4
+      axios: 1.9.0
       big.js: 6.2.2
       bn.js: 5.2.1
       dayjs: 1.11.13
@@ -9342,7 +9345,7 @@ packages:
       '@solana/buffer-layout': 4.0.1
       '@solana/spl-token': 0.4.9(@solana/web3.js@1.98.0)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)
       '@solana/web3.js': 1.98.0
-      axios: 1.8.4
+      axios: 1.9.0
       big.js: 6.2.2
       bn.js: 5.2.1
       dayjs: 1.11.13
@@ -10142,8 +10145,8 @@ packages:
   /@scure/bip32@1.6.2:
     resolution: {integrity: sha512-t96EPDMbtGgtb7onKKqxRLfE5g05k7uHnHRM2xdE6BP/ZmxaLtPek4J4KfVn/90IQNrU1IOAqMgiDtUdtbe3nw==}
     dependencies:
-      '@noble/curves': 1.8.1
-      '@noble/hashes': 1.7.1
+      '@noble/curves': 1.8.2
+      '@noble/hashes': 1.7.2
       '@scure/base': 1.2.4
     dev: false
 
@@ -10164,7 +10167,7 @@ packages:
   /@scure/bip39@1.5.4:
     resolution: {integrity: sha512-TFM4ni0vKvCfBpohoh+/lY05i9gRbSwXWngAsF4CABQxoaOHijxuaZ2R6cStDQ5CHtHO9aGJTr4ksVJASRRyMA==}
     dependencies:
-      '@noble/hashes': 1.7.1
+      '@noble/hashes': 1.7.2
       '@scure/base': 1.2.4
     dev: false
 
@@ -11725,7 +11728,7 @@ packages:
     dependencies:
       '@jup-ag/api': 6.0.40
       '@solana/web3.js': 1.98.0
-      axios: 1.8.4
+      axios: 1.9.0
       typescript: 5.8.3
     transitivePeerDependencies:
       - bufferutil
@@ -11808,7 +11811,7 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@solana/web3.js': 1.98.0
-      axios: 1.8.4
+      axios: 1.9.0
       big.js: 6.2.2
       bn.js: 5.2.1
       bs58: 6.0.0
@@ -11835,7 +11838,7 @@ packages:
       '@solana/web3.js': 1.98.0
       '@solworks/soltoolkit-sdk': 0.0.23(fastestsmallesttextencoderdecoder@1.0.22)
       '@switchboard-xyz/common': 2.5.19
-      axios: 1.8.4
+      axios: 1.9.0
       big.js: 6.2.2
       bs58: 5.0.0
       js-yaml: 4.1.0
@@ -11858,7 +11861,7 @@ packages:
   /@tavily/core@0.0.2:
     resolution: {integrity: sha512-UabYbp57bdjEloA4efW9zTSzv+FZp13JVDHcfutUNR5XUZ+aDGupe2wpfABECnD+b7Ojp9v9zguZcm1o+h0//w==}
     dependencies:
-      axios: 1.8.4
+      axios: 1.9.0
       js-tiktoken: 1.0.19
     transitivePeerDependencies:
       - debug
@@ -12837,12 +12840,12 @@ packages:
       - debug
     dev: false
 
-  /@wormhole-foundation/sdk-aptos-cctp@1.15.2(axios@1.8.4)(got@11.8.6):
+  /@wormhole-foundation/sdk-aptos-cctp@1.15.2(axios@1.9.0)(got@11.8.6):
     resolution: {integrity: sha512-iC/08Ra9KKODTwMsMZpA8mFsiddCofqRQLcXIbQZY+hpNW5t8dPqLL4SUdU1DAZC1m+XMmkMU1dAg8/kKcVoUg==}
     engines: {node: '>=16'}
     dependencies:
-      '@aptos-labs/ts-sdk': 1.38.0(axios@1.8.4)(got@11.8.6)
-      '@wormhole-foundation/sdk-aptos': 1.15.2(axios@1.8.4)(got@11.8.6)
+      '@aptos-labs/ts-sdk': 1.38.0(axios@1.9.0)(got@11.8.6)
+      '@wormhole-foundation/sdk-aptos': 1.15.2(axios@1.9.0)(got@11.8.6)
       '@wormhole-foundation/sdk-connect': 1.15.2
     transitivePeerDependencies:
       - axios
@@ -12850,11 +12853,11 @@ packages:
       - got
     dev: false
 
-  /@wormhole-foundation/sdk-aptos-core@1.15.2(axios@1.8.4)(got@11.8.6):
+  /@wormhole-foundation/sdk-aptos-core@1.15.2(axios@1.9.0)(got@11.8.6):
     resolution: {integrity: sha512-nMYVjXoBK2eTFgtnWZwNq8u2Tk0YnSHJS11j7IMq8REsn1qbDVXR76VARmzRkiB8bItf+yPNu68nYH0as8wksw==}
     engines: {node: '>=16'}
     dependencies:
-      '@wormhole-foundation/sdk-aptos': 1.15.2(axios@1.8.4)(got@11.8.6)
+      '@wormhole-foundation/sdk-aptos': 1.15.2(axios@1.9.0)(got@11.8.6)
       '@wormhole-foundation/sdk-connect': 1.15.2
     transitivePeerDependencies:
       - axios
@@ -12862,11 +12865,11 @@ packages:
       - got
     dev: false
 
-  /@wormhole-foundation/sdk-aptos-tokenbridge@1.15.2(axios@1.8.4)(got@11.8.6):
+  /@wormhole-foundation/sdk-aptos-tokenbridge@1.15.2(axios@1.9.0)(got@11.8.6):
     resolution: {integrity: sha512-zpfAku5yKSXh/FYz2sG5LmZNsdZvAvBjvPatnHGhs7hFIgraezXaWAgGIa5XCTWsDc8NBhOs3Gpcb8OVzLxVjQ==}
     engines: {node: '>=16'}
     dependencies:
-      '@wormhole-foundation/sdk-aptos': 1.15.2(axios@1.8.4)(got@11.8.6)
+      '@wormhole-foundation/sdk-aptos': 1.15.2(axios@1.9.0)(got@11.8.6)
       '@wormhole-foundation/sdk-connect': 1.15.2
     transitivePeerDependencies:
       - axios
@@ -12874,11 +12877,11 @@ packages:
       - got
     dev: false
 
-  /@wormhole-foundation/sdk-aptos@1.15.2(axios@1.8.4)(got@11.8.6):
+  /@wormhole-foundation/sdk-aptos@1.15.2(axios@1.9.0)(got@11.8.6):
     resolution: {integrity: sha512-JADtRjaui2hWJi5a/GhH7mVVRecB+FdU7SqpnYht3QZyUyQucyBME03NYzelOLE75herbmkRoxMvicBehXCWEQ==}
     engines: {node: '>=16'}
     dependencies:
-      '@aptos-labs/ts-sdk': 1.38.0(axios@1.8.4)(got@11.8.6)
+      '@aptos-labs/ts-sdk': 1.38.0(axios@1.9.0)(got@11.8.6)
       '@wormhole-foundation/sdk-connect': 1.15.2
     transitivePeerDependencies:
       - axios
@@ -12899,7 +12902,7 @@ packages:
     dependencies:
       '@wormhole-foundation/sdk-base': 1.15.2
       '@wormhole-foundation/sdk-definitions': 1.15.2
-      axios: 1.8.4
+      axios: 1.9.0
     transitivePeerDependencies:
       - debug
     dev: false
@@ -13216,17 +13219,17 @@ packages:
       - typescript
     dev: false
 
-  /@wormhole-foundation/sdk@1.15.2(axios@1.8.4)(got@11.8.6)(react@18.2.0)(typescript@5.6.3):
+  /@wormhole-foundation/sdk@1.15.2(axios@1.9.0)(got@11.8.6)(react@18.2.0)(typescript@5.6.3):
     resolution: {integrity: sha512-K2x58Vx4An5N8pwCUFfWQMGcYNuZHsGwXpxkRxS4mzX10cZIEycrf3vvaEr5Bn3LpCDkI2cZ2LwWe4lvfN4b4A==}
     engines: {node: '>=16'}
     dependencies:
       '@wormhole-foundation/sdk-algorand': 1.15.2
       '@wormhole-foundation/sdk-algorand-core': 1.15.2
       '@wormhole-foundation/sdk-algorand-tokenbridge': 1.15.2
-      '@wormhole-foundation/sdk-aptos': 1.15.2(axios@1.8.4)(got@11.8.6)
-      '@wormhole-foundation/sdk-aptos-cctp': 1.15.2(axios@1.8.4)(got@11.8.6)
-      '@wormhole-foundation/sdk-aptos-core': 1.15.2(axios@1.8.4)(got@11.8.6)
-      '@wormhole-foundation/sdk-aptos-tokenbridge': 1.15.2(axios@1.8.4)(got@11.8.6)
+      '@wormhole-foundation/sdk-aptos': 1.15.2(axios@1.9.0)(got@11.8.6)
+      '@wormhole-foundation/sdk-aptos-cctp': 1.15.2(axios@1.9.0)(got@11.8.6)
+      '@wormhole-foundation/sdk-aptos-core': 1.15.2(axios@1.9.0)(got@11.8.6)
+      '@wormhole-foundation/sdk-aptos-tokenbridge': 1.15.2(axios@1.9.0)(got@11.8.6)
       '@wormhole-foundation/sdk-base': 1.15.2
       '@wormhole-foundation/sdk-connect': 1.15.2
       '@wormhole-foundation/sdk-cosmwasm': 1.15.2(react@18.2.0)
@@ -13294,13 +13297,13 @@ packages:
       tslib: 2.8.1
     dev: false
 
-  /@zodios/core@10.9.6(axios@1.8.4)(zod@3.24.3):
+  /@zodios/core@10.9.6(axios@1.9.0)(zod@3.24.3):
     resolution: {integrity: sha512-aH4rOdb3AcezN7ws8vDgBfGboZMk2JGGzEq/DtW65MhnRxyTGRuLJRWVQ/2KxDgWvV2F5oTkAS+5pnjKbl0n+A==}
     peerDependencies:
       axios: ^0.x || ^1.0.0
       zod: ^3.x
     dependencies:
-      axios: 1.8.4
+      axios: 1.9.0
       zod: 3.24.3
     dev: false
 
@@ -14037,8 +14040,8 @@ packages:
       - debug
     dev: false
 
-  /axios@1.8.4:
-    resolution: {integrity: sha512-eBSYY4Y68NNlHbHBMdeDmKNtDgXWhQsJcGqzO3iLUM0GraQFSS9cVgPX5I9b3lbdFKyYoAEGAZF1DwhTaljNAw==}
+  /axios@1.9.0:
+    resolution: {integrity: sha512-re4CqKTJaURpzbLHtIi6XpDv20/CnpXOtjRY5/CU32L8gU8ek9UIivcfvSWvmKEngmVbrUtPpdDwWDWL7DNHvg==}
     dependencies:
       follow-redirects: 1.15.9(debug@4.3.4)
       form-data: 4.0.2
@@ -14047,8 +14050,8 @@ packages:
       - debug
     dev: false
 
-  /axios@1.8.4(debug@4.4.0):
-    resolution: {integrity: sha512-eBSYY4Y68NNlHbHBMdeDmKNtDgXWhQsJcGqzO3iLUM0GraQFSS9cVgPX5I9b3lbdFKyYoAEGAZF1DwhTaljNAw==}
+  /axios@1.9.0(debug@4.4.0):
+    resolution: {integrity: sha512-re4CqKTJaURpzbLHtIi6XpDv20/CnpXOtjRY5/CU32L8gU8ek9UIivcfvSWvmKEngmVbrUtPpdDwWDWL7DNHvg==}
     dependencies:
       follow-redirects: 1.15.9(debug@4.4.0)
       form-data: 4.0.2
@@ -14984,7 +14987,7 @@ packages:
     engines: {node: '>= 14.15.0'}
     hasBin: true
     dependencies:
-      axios: 1.8.4(debug@4.4.0)
+      axios: 1.9.0(debug@4.4.0)
       debug: 4.4.0
       fs-extra: 11.2.0
       memory-stream: 1.0.0
@@ -18836,7 +18839,7 @@ packages:
       zlibjs: 0.3.1
     dev: false
 
-  /langchain@0.3.23(@langchain/core@0.3.45)(@langchain/groq@0.1.3)(axios@1.8.4)(openai@4.95.1)(ws@8.18.0):
+  /langchain@0.3.23(@langchain/core@0.3.45)(@langchain/groq@0.1.3)(axios@1.9.0)(openai@4.95.1)(ws@8.18.0):
     resolution: {integrity: sha512-o297nfr78Dm1LxkivJ3ULZoHHC/e5e9ruX1kyIIKUlw1O3lyb8nXCnGKWh96zJRD+BpN0akRRKiJruRYYWTkdw==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -18898,7 +18901,7 @@ packages:
       '@langchain/groq': 0.1.3(@langchain/core@0.3.45)(ws@8.18.0)
       '@langchain/openai': 0.3.17(@langchain/core@0.3.45)(ws@8.18.0)
       '@langchain/textsplitters': 0.1.0(@langchain/core@0.3.45)
-      axios: 1.8.4
+      axios: 1.9.0
       js-tiktoken: 1.0.19
       js-yaml: 4.1.0
       jsonpointer: 5.0.1
@@ -18915,7 +18918,7 @@ packages:
       - ws
     dev: false
 
-  /langchain@0.3.6(@langchain/core@0.3.45)(axios@1.8.4)(handlebars@4.7.8)(openai@4.73.0)(ws@8.18.0):
+  /langchain@0.3.6(@langchain/core@0.3.45)(axios@1.9.0)(handlebars@4.7.8)(openai@4.73.0)(ws@8.18.0):
     resolution: {integrity: sha512-erZOIKXzwCOrQHqY9AyjkQmaX62zUap1Sigw1KrwMUOnVoLKkVNRmAyxFlNZDZ9jLs/58MaQcaT9ReJtbj3x6w==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -18964,7 +18967,7 @@ packages:
       '@langchain/core': 0.3.45(openai@4.95.1)
       '@langchain/openai': 0.3.17(@langchain/core@0.3.45)(ws@8.18.0)
       '@langchain/textsplitters': 0.1.0(@langchain/core@0.3.45)
-      axios: 1.8.4
+      axios: 1.9.0
       handlebars: 4.7.8
       js-tiktoken: 1.0.15
       js-yaml: 4.1.0
@@ -18982,7 +18985,7 @@ packages:
       - ws
     dev: false
 
-  /langchain@0.3.6(@langchain/core@0.3.45)(axios@1.8.4)(handlebars@4.7.8)(openai@4.82.0)(ws@8.18.0):
+  /langchain@0.3.6(@langchain/core@0.3.45)(axios@1.9.0)(handlebars@4.7.8)(openai@4.82.0)(ws@8.18.0):
     resolution: {integrity: sha512-erZOIKXzwCOrQHqY9AyjkQmaX62zUap1Sigw1KrwMUOnVoLKkVNRmAyxFlNZDZ9jLs/58MaQcaT9ReJtbj3x6w==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -19031,7 +19034,7 @@ packages:
       '@langchain/core': 0.3.45(openai@4.95.1)
       '@langchain/openai': 0.3.17(@langchain/core@0.3.45)(ws@8.18.0)
       '@langchain/textsplitters': 0.1.0(@langchain/core@0.3.45)
-      axios: 1.8.4
+      axios: 1.9.0
       handlebars: 4.7.8
       js-tiktoken: 1.0.15
       js-yaml: 4.1.0
@@ -21889,7 +21892,7 @@ packages:
   /puppeteer-extra-plugin-capsolver@2.0.1(typescript@5.6.3):
     resolution: {integrity: sha512-mohsbnHWgGR9yiLV7U5opiEBsn7k2wH9Qvs8IowurHCrQ6JoA/it6x9ZT5dJi8s6arUJPbUeE+VWpN0gH/xePQ==}
     dependencies:
-      axios: 1.8.4
+      axios: 1.9.0
       capsolver-npm: 2.0.2
       puppeteer: 19.11.1(typescript@5.6.3)
       puppeteer-extra: 3.3.6(puppeteer@19.11.1)
@@ -23191,7 +23194,7 @@ packages:
       '@openzeppelin/contracts': 5.3.0
       '@orca-so/common-sdk': 0.6.4(@solana/spl-token@0.4.9)(@solana/web3.js@1.98.0)(decimal.js@10.5.0)
       '@orca-so/whirlpools-sdk': 0.13.20(@coral-xyz/anchor@0.29.0)(@solana/spl-token@0.4.9)(@solana/web3.js@1.98.0)
-      '@pythnetwork/hermes-client': 1.4.0(axios@1.8.4)
+      '@pythnetwork/hermes-client': 1.4.0(axios@1.9.0)
       '@raydium-io/raydium-sdk-v2': 0.1.95-alpha(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)
       '@solana/spl-token': 0.4.9(@solana/web3.js@1.98.0)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)
       '@solana/spl-token-metadata': 0.1.6(@solana/web3.js@1.98.0)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)
@@ -23202,9 +23205,9 @@ packages:
       '@tensor-oss/tensorswap-sdk': 4.5.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)
       '@tiplink/api': 0.3.1(fastestsmallesttextencoderdecoder@1.0.22)(sodium-native@3.4.1)
       '@voltr/vault-sdk': 0.1.6(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)
-      '@wormhole-foundation/sdk': 1.15.2(axios@1.8.4)(got@11.8.6)(react@18.2.0)(typescript@5.6.3)
+      '@wormhole-foundation/sdk': 1.15.2(axios@1.9.0)(got@11.8.6)(react@18.2.0)(typescript@5.6.3)
       ai: 4.3.9(react@18.2.0)(zod@3.24.3)
-      axios: 1.8.4
+      axios: 1.9.0
       bn.js: 5.2.1
       bs58: 6.0.0
       chai: 5.2.0
@@ -23213,7 +23216,7 @@ packages:
       ethers: 6.13.5
       flash-sdk: 2.41.4(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)
       form-data: 4.0.2
-      langchain: 0.3.23(@langchain/core@0.3.45)(@langchain/groq@0.1.3)(axios@1.8.4)(openai@4.95.1)(ws@8.18.0)
+      langchain: 0.3.23(@langchain/core@0.3.45)(@langchain/groq@0.1.3)(axios@1.9.0)(openai@4.95.1)(ws@8.18.0)
       openai: 4.95.1(ws@8.18.0)(zod@3.24.3)
       tiktoken: 1.0.20
       typedoc: 0.27.9(typescript@5.6.3)
