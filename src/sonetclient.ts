@@ -1,10 +1,164 @@
 import { DirectClient } from "@elizaos/client-direct";
+import { AgentRuntime, stringToUuid } from "@elizaos/core/dist";
+import {
+  Content,
+  Memory,
+  Media,
+  composeContext,
+  generateMessageResponse,
+  ModelClass,
+  getEmbeddingZeroVector,
+} from "@elizaos/core";
+import { Request, Response } from "express";
+import path from "path";
 import axios from "axios";
+
 export class SonetClient extends DirectClient {
+  private agents: Map<string, AgentRuntime>;
   constructor() {
     super();
   }
+  async handleAgentMessage(req: Request, res: Response) {
+    const agentId = "Sonet";
+    const roomId = stringToUuid(req.body.roomId ?? "default-room-" + agentId);
+    const userId = stringToUuid(req.body.userId ?? "user");
 
+    const runtime = this.agents.get(agentId);
+
+    if (!runtime) {
+      res.status(404).send("Agent not found");
+      return;
+    }
+
+    await runtime.ensureConnection(
+      userId,
+      roomId,
+      req.body.userName,
+      req.body.name,
+      "direct"
+    );
+
+    const text = req.body.text;
+    // if empty text, directly return
+    if (!text) {
+      res.json([]);
+      return;
+    }
+
+    const messageId = stringToUuid(Date.now().toString());
+
+    const attachments: Media[] = [];
+    if (req.file) {
+      const filePath = path.join(
+        process.cwd(),
+        "data",
+        "uploads",
+        req.file.filename
+      );
+      attachments.push({
+        id: Date.now().toString(),
+        url: filePath,
+        title: req.file.originalname,
+        source: "direct",
+        description: `Uploaded file: ${req.file.originalname}`,
+        text: "",
+        contentType: req.file.mimetype,
+      });
+    }
+
+    const content: Content = {
+      text,
+      attachments,
+      source: "direct",
+      inReplyTo: undefined,
+    };
+
+    const userMessage = {
+      content,
+      userId,
+      roomId,
+      agentId: runtime.agentId,
+    };
+
+    const memory: Memory = {
+      id: stringToUuid(messageId + "-" + userId),
+      ...userMessage,
+      agentId: runtime.agentId,
+      userId,
+      roomId,
+      content,
+      createdAt: Date.now(),
+    };
+
+    await runtime.messageManager.addEmbeddingToMemory(memory);
+    await runtime.messageManager.createMemory(memory);
+
+    let state = await runtime.composeState(userMessage, {
+      agentName: runtime.character.name,
+    });
+
+    const context = composeContext({
+      state,
+      template: messageHandlerTemplate,
+    });
+
+    const response = await generateMessageResponse({
+      runtime: runtime,
+      context,
+      modelClass: ModelClass.LARGE,
+    });
+
+    if (!response) {
+      res.status(500).send("No response from generateMessageResponse");
+      return;
+    }
+
+    // save response to memory
+    const responseMessage: Memory = {
+      id: stringToUuid(messageId + "-" + runtime.agentId),
+      ...userMessage,
+      userId: runtime.agentId,
+      content: response,
+      embedding: getEmbeddingZeroVector(),
+      createdAt: Date.now(),
+    };
+
+    await runtime.messageManager.createMemory(responseMessage);
+
+    state = await runtime.updateRecentMessageState(state);
+
+    let message = null as Content | null;
+
+    await runtime.processActions(
+      memory,
+      [responseMessage],
+      state,
+      async (newMessages) => {
+        message = newMessages;
+        return [memory];
+      }
+    );
+
+    await runtime.evaluate(memory, state);
+
+    // Check if we should suppress the initial message
+    const action = runtime.actions.find((a) => a.name === response.action);
+    const shouldSuppressInitialMessage = action?.suppressInitialMessage;
+
+    if (!shouldSuppressInitialMessage) {
+      if (message) {
+        res.json([response, message]);
+      } else {
+        res.json([response]);
+      }
+    } else {
+      if (message) {
+        res.json([message]);
+      } else {
+        res.json([]);
+      }
+    }
+  }
   setupRoutes() {
     this.app.post("/webhook", async (req, res) => {
       // log incoming messages
