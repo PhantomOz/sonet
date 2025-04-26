@@ -169,6 +169,7 @@ export class SonetClient extends DirectClient {
       }
     }
   }
+
   setupRoutes() {
     this.app.post("/webhook", async (req, res) => {
       // log incoming messages
@@ -189,16 +190,16 @@ export class SonetClient extends DirectClient {
           req.body.entry?.[0].changes?.[0].value?.metadata?.phone_number_id;
 
         try {
-          const serverPort = parseInt(process.env.PORT || "3000");
+          console.log("Handling agent message: ", message.text.body);
 
           const response = await this.handleAgentMessage({
-            text: message.text.body.toLowerCase(),
+            text: message.text.body,
             userId: contact.wa_id,
             userName: contact.profile.name,
-            name: "Sonet",
           });
 
           const data = await response;
+          console.log("Response: ", data);
           data.forEach(async (message) => {
             // send a reply message as per the docs here https://developers.facebook.com/docs/whatsapp/cloud-api/reference/messages
             await axios({
