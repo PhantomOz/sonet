@@ -1,4 +1,5 @@
-import { DirectClient } from "@elizaos/client-direct";
+// import { DirectClient } from "@elizaos/client-direct";
+import { SonetClient } from "./sonetclient.ts";
 import {
   AgentRuntime,
   elizaLogger,
@@ -44,7 +45,7 @@ export function createAgent(
   elizaLogger.success(
     elizaLogger.successesTitle,
     "Creating runtime for character",
-    character.name,
+    character.name
   );
 
   nodePlugin ??= createNodePlugin();
@@ -68,7 +69,7 @@ export function createAgent(
   });
 }
 
-async function startAgent(character: Character, directClient: DirectClient) {
+async function startAgent(character: Character, directClient: SonetClient) {
   try {
     character.id ??= stringToUuid(character.name);
     character.username ??= character.name;
@@ -100,7 +101,7 @@ async function startAgent(character: Character, directClient: DirectClient) {
   } catch (error) {
     elizaLogger.error(
       `Error starting agent for character ${character.name}:`,
-      error,
+      error
     );
     console.error(error);
     throw error;
@@ -127,7 +128,7 @@ const checkPortAvailable = (port: number): Promise<boolean> => {
 };
 
 const startAgents = async () => {
-  const directClient = new DirectClient();
+  const directClient = new SonetClient();
   let serverPort = parseInt(settings.SERVER_PORT || "3000");
   const args = parseArguments();
 
@@ -141,7 +142,7 @@ const startAgents = async () => {
   console.log("characters", characters);
   try {
     for (const character of characters) {
-      await startAgent(character, directClient as DirectClient);
+      await startAgent(character, directClient as SonetClient);
     }
   } catch (error) {
     elizaLogger.error("Error starting agents:", error);
@@ -158,6 +159,7 @@ const startAgents = async () => {
     return startAgent(character, directClient);
   };
 
+  directClient.setupRoutes();
   directClient.start(serverPort);
 
   if (serverPort !== parseInt(settings.SERVER_PORT || "3000")) {
@@ -165,7 +167,7 @@ const startAgents = async () => {
   }
 
   const isDaemonProcess = process.env.DAEMON_PROCESS === "true";
-  if(!isDaemonProcess) {
+  if (!isDaemonProcess) {
     elizaLogger.log("Chat started. Type 'exit' to quit.");
     const chat = startChat(characters);
     chat();

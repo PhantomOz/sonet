@@ -11,6 +11,7 @@
     "stop:service:all": "pm2 stop all"
   },
   "dependencies": {
+    "@account-kit/signer": "^4.27.0",
     "@elizaos/adapter-postgres": "0.1.9",
     "@elizaos/adapter-sqlite": "0.1.9",
     "@elizaos/client-auto": "0.1.9",
