@@ -4,17 +4,13 @@ import {
   defaultCharacter,
   ModelProviderName,
 } from "@elizaos/core";
-import evmPlugin from "@elizaos/plugin-evm";
 
 export const character: Character = {
   name: "Sonet",
-  plugins: [evmPlugin],
+  plugins: [],
   clients: [],
   modelProvider: ModelProviderName.OPENAI,
   settings: {
-    chains: {
-      evm: ["soneium"],
-    },
     secrets: {},
     voice: {
       model: "en_US-hfc_female-medium",
