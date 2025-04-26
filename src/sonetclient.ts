@@ -192,8 +192,7 @@ export class SonetClient extends DirectClient {
           const serverPort = parseInt(process.env.PORT || "3000");
 
           const response = await this.handleAgentMessage({
-            text: message.text,
-            roomId: message.id,
+            text: message.text.body.toLowerCase(),
             userId: contact.wa_id,
             userName: contact.profile.name,
             name: "Sonet",
