@@ -1,4 +1,4 @@
-import { DirectClient } from "@elizaos/client-direct";
+import { DirectClient, messageHandlerTemplate } from "@elizaos/client-direct";
 import { AgentRuntime, stringToUuid } from "@elizaos/core/dist";
 import {
   Content,
@@ -9,60 +9,70 @@ import {
   ModelClass,
   getEmbeddingZeroVector,
 } from "@elizaos/core";
-import { Request, Response } from "express";
 import path from "path";
 import axios from "axios";
 
+type AgentMessageParams = {
+  roomId?: string;
+  userId?: string;
+  userName?: string;
+  name?: string;
+  text?: string;
+  file?: {
+    filename: string;
+    mimetype: string;
+    originalname: string;
+  };
+};
+
 export class SonetClient extends DirectClient {
-  private agents: Map<string, AgentRuntime>;
+  public agent: AgentRuntime;
   constructor() {
     super();
   }
-  async handleAgentMessage(req: Request, res: Response) {
+  async handleAgentMessage(params: AgentMessageParams) {
     const agentId = "Sonet";
-    const roomId = stringToUuid(req.body.roomId ?? "default-room-" + agentId);
-    const userId = stringToUuid(req.body.userId ?? "user");
+    const roomId = stringToUuid(params.roomId ?? "default-room-" + agentId);
+    const userId = stringToUuid(params.userId ?? "user");
 
-    const runtime = this.agents.get(agentId);
+    const runtime = this.agent;
 
     if (!runtime) {
-      res.status(404).send("Agent not found");
-      return;
+      throw new Error("Agent not found");
     }
 
     await runtime.ensureConnection(
       userId,
       roomId,
-      req.body.userName,
-      req.body.name,
+      params.userName,
+      params.name,
       "direct"
     );
 
-    const text = req.body.text;
+    const text = params.text;
     // if empty text, directly return
     if (!text) {
-      res.json([]);
-      return;
+      return [];
     }
 
     const messageId = stringToUuid(Date.now().toString());
 
     const attachments: Media[] = [];
-    if (req.file) {
+    if (params.file) {
       const filePath = path.join(
         process.cwd(),
         "data",
         "uploads",
-        req.file.filename
+        params.file.filename
       );
       attachments.push({
         id: Date.now().toString(),
         url: filePath,
-        title: req.file.originalname,
+        title: params.file.originalname,
         source: "direct",
-        description: `Uploaded file: ${req.file.originalname}`,
+        description: `Uploaded file: ${params.file.originalname}`,
         text: "",
-        contentType: req.file.mimetype,
+        contentType: params.file.mimetype,
       });
     }
 
@@ -109,8 +119,7 @@ export class SonetClient extends DirectClient {
     });
 
     if (!response) {
-      res.status(500).send("No response from generateMessageResponse");
-      return;
+      throw new Error("No response from generateMessageResponse");
     }
 
     // save response to memory
@@ -147,15 +156,15 @@ export class SonetClient extends DirectClient {
 
     if (!shouldSuppressInitialMessage) {
       if (message) {
-        res.json([response, message]);
+        return [response, message];
       } else {
-        res.json([response]);
+        return [response];
       }
     } else {
       if (message) {
-        res.json([message]);
+        return [message];
       } else {
-        res.json([]);
+        return [];
       }
     }
   }
@@ -181,20 +190,15 @@ export class SonetClient extends DirectClient {
         try {
           const serverPort = parseInt(process.env.PORT || "3000");
 
-          const response = await fetch(
-            `https://sonet-production.up.railway.app/Sonet/message`,
-            {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({
-                text: message.text.body,
-                userId: contact.wa_id,
-                userName: contact.profile.name,
-              }),
-            }
-          );
+          const response = await this.handleAgentMessage({
+            text: message.text,
+            roomId: message.id,
+            userId: contact.wa_id,
+            userName: contact.profile.name,
+            name: "Sonet",
+          });
 
-          const data = await response.json();
+          const data = await response;
           data.forEach(async (message) => {
             // send a reply message as per the docs here https://developers.facebook.com/docs/whatsapp/cloud-api/reference/messages
             await axios({
