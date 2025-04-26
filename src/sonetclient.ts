@@ -28,7 +28,7 @@ export class SonetClient extends DirectClient {
           const serverPort = parseInt(process.env.PORT || "3000");
 
           const response = await fetch(
-            `http://localhost:${serverPort}/sonet/message`,
+            `https://sonet-production.up.railway.app/Sonet/message`,
             {
               method: "POST",
               headers: { "Content-Type": "application/json" },
