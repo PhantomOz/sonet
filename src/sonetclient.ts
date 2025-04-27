@@ -196,6 +196,8 @@ export class SonetClient extends DirectClient {
             text: message.text.body,
             userId: contact.wa_id,
             userName: contact.profile.name,
+            name: "Sonet",
+            roomId: contact.wa_id,
           });
 
           const data = await response;
