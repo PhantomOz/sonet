@@ -200,7 +200,7 @@ export class SonetClient extends DirectClient {
 
           const data = await response;
           console.log("Response: ", data);
-          data.forEach(async (message) => {
+          data.forEach(async (mess) => {
             // send a reply message as per the docs here https://developers.facebook.com/docs/whatsapp/cloud-api/reference/messages
             await axios({
               method: "POST",
@@ -211,7 +211,7 @@ export class SonetClient extends DirectClient {
               data: {
                 messaging_product: "whatsapp",
                 to: message.from,
-                text: { body: "Echo: " + message.text },
+                text: { body: mess.text },
                 context: {
                   message_id: message.id, // shows the message as a reply to the original user message
                 },
