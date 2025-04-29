@@ -1,4 +1,3 @@
-// import { DirectClient } from "@elizaos/client-direct";
 import { SonetClient } from "./sonetclient.ts";
 import {
   AgentRuntime,
@@ -9,7 +8,6 @@ import {
 } from "@elizaos/core";
 import { bootstrapPlugin } from "@elizaos/plugin-bootstrap";
 import { createNodePlugin } from "@elizaos/plugin-node";
-import { solanaPlugin } from "@elizaos/plugin-solana";
 import fs from "fs";
 import net from "net";
 import path from "path";
@@ -17,7 +15,6 @@ import { fileURLToPath } from "url";
 import { initializeDbCache } from "./cache/index.ts";
 import { character } from "./character.ts";
 import { startChat } from "./chat/index.ts";
-import { initializeClients } from "./clients/index.ts";
 import {
   getTokenForProvider,
   loadCharacters,
@@ -56,11 +53,7 @@ export function createAgent(
     modelProvider: character.modelProvider,
     evaluators: [],
     character,
-    plugins: [
-      bootstrapPlugin,
-      nodePlugin,
-      character.settings?.secrets?.WALLET_PUBLIC_KEY ? solanaPlugin : null,
-    ].filter(Boolean),
+    plugins: [bootstrapPlugin, nodePlugin].filter(Boolean),
     providers: [],
     actions: [],
     services: [],
@@ -89,8 +82,6 @@ async function startAgent(character: Character, directClient: SonetClient) {
     const runtime = createAgent(character, db, cache, token);
 
     await runtime.initialize();
-
-    runtime.clients = await initializeClients(character, runtime);
 
     directClient.registerAgent(runtime);
     directClient.addAgent(runtime);
