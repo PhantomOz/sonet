@@ -4,6 +4,7 @@ dist
 !character.ts
 !sonetclient.ts
 .env
+sonet.pem
 node_modules
 dist/
 

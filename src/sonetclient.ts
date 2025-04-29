@@ -32,6 +32,7 @@ export class SonetClient extends DirectClient {
     super();
   }
   async handleAgentMessage(params: AgentMessageParams) {
+    console.log("------Starting handleAgentMessage--------");
     const agentId = "Sonet";
     const roomId = stringToUuid(params.roomId ?? "default-room-" + agentId);
     const userId = stringToUuid(params.userId ?? "user");
@@ -42,6 +43,8 @@ export class SonetClient extends DirectClient {
       throw new Error("Agent not found");
     }
 
+    console.log("runtime", runtime);
+
     await runtime.ensureConnection(
       userId,
       roomId,
@@ -50,39 +53,27 @@ export class SonetClient extends DirectClient {
       "direct"
     );
 
+    console.log("-------Runtime connected--------");
+
     const text = params.text;
     // if empty text, directly return
     if (!text) {
       return [];
     }
 
-    const messageId = stringToUuid(Date.now().toString());
+    console.log("Text: ", text);
 
-    const attachments: Media[] = [];
-    if (params.file) {
-      const filePath = path.join(
-        process.cwd(),
-        "data",
-        "uploads",
-        params.file.filename
-      );
-      attachments.push({
-        id: Date.now().toString(),
-        url: filePath,
-        title: params.file.originalname,
-        source: "direct",
-        description: `Uploaded file: ${params.file.originalname}`,
-        text: "",
-        contentType: params.file.mimetype,
-      });
-    }
+    const messageId = stringToUuid(Date.now().toString());
+    console.log("messageId", messageId);
+    console.log("text", text);
 
     const content: Content = {
       text,
-      attachments,
       source: "direct",
       inReplyTo: undefined,
     };
+
+    console.log("------Content created--------", content);
 
     const userMessage = {
       content,
@@ -90,6 +81,8 @@ export class SonetClient extends DirectClient {
       roomId,
       agentId: runtime.agentId,
     };
+
+    console.log("------User message created--------", userMessage);
 
     const memory: Memory = {
       id: stringToUuid(messageId + "-" + userId),
@@ -104,14 +97,20 @@ export class SonetClient extends DirectClient {
     await runtime.messageManager.addEmbeddingToMemory(memory);
     await runtime.messageManager.createMemory(memory);
 
+    console.log("------Memory created--------", memory);
+
     let state = await runtime.composeState(userMessage, {
       agentName: runtime.character.name,
     });
+
+    console.log("------State created--------", state);
 
     const context = composeContext({
       state,
       template: messageHandlerTemplate,
     });
+
+    console.log("------Context created--------", context);
 
     const response = await generateMessageResponse({
       runtime: runtime,
@@ -123,6 +122,8 @@ export class SonetClient extends DirectClient {
       throw new Error("No response from generateMessageResponse");
     }
 
+    console.log("------Response created--------", response);
+
     // save response to memory
     const responseMessage: Memory = {
       id: stringToUuid(messageId + "-" + runtime.agentId),
@@ -132,6 +133,8 @@ export class SonetClient extends DirectClient {
       embedding: getEmbeddingZeroVector(),
       createdAt: Date.now(),
     };
+
+    console.log("------Response message created--------", responseMessage);
 
     await runtime.messageManager.createMemory(responseMessage);
 
