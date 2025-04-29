@@ -32,7 +32,6 @@ export class SonetClient extends DirectClient {
     super();
   }
   async handleAgentMessage(params: AgentMessageParams) {
-    console.log("------Starting handleAgentMessage--------");
     const agentId = "Sonet";
     const roomId = stringToUuid(params.roomId ?? "default-room-" + agentId);
     const userId = stringToUuid(params.userId ?? "user");
@@ -43,8 +42,6 @@ export class SonetClient extends DirectClient {
       throw new Error("Agent not found");
     }
 
-    console.log("runtime", runtime);
-
     await runtime.ensureConnection(
       userId,
       roomId,
@@ -53,19 +50,13 @@ export class SonetClient extends DirectClient {
       "direct"
     );
 
-    console.log("-------Runtime connected--------");
-
     const text = params.text;
     // if empty text, directly return
     if (!text) {
       return [];
     }
 
-    console.log("Text: ", text);
-
     const messageId = stringToUuid(Date.now().toString());
-    console.log("messageId", messageId);
-    console.log("text", text);
 
     const content: Content = {
       text,
@@ -73,16 +64,12 @@ export class SonetClient extends DirectClient {
       inReplyTo: undefined,
     };
 
-    console.log("------Content created--------", content);
-
     const userMessage = {
       content,
       userId,
       roomId,
       agentId: runtime.agentId,
     };
-
-    console.log("------User message created--------", userMessage);
 
     const memory: Memory = {
       id: stringToUuid(messageId + "-" + userId),
@@ -97,20 +84,14 @@ export class SonetClient extends DirectClient {
     await runtime.messageManager.addEmbeddingToMemory(memory);
     await runtime.messageManager.createMemory(memory);
 
-    console.log("------Memory created--------", memory);
-
     let state = await runtime.composeState(userMessage, {
       agentName: runtime.character.name,
     });
-
-    console.log("------State created--------", state);
 
     const context = composeContext({
       state,
       template: messageHandlerTemplate,
     });
-
-    console.log("------Context created--------", context);
 
     const response = await generateMessageResponse({
       runtime: runtime,
@@ -122,8 +103,6 @@ export class SonetClient extends DirectClient {
       throw new Error("No response from generateMessageResponse");
     }
 
-    console.log("------Response created--------", response);
-
     // save response to memory
     const responseMessage: Memory = {
       id: stringToUuid(messageId + "-" + runtime.agentId),
@@ -133,8 +112,6 @@ export class SonetClient extends DirectClient {
       embedding: getEmbeddingZeroVector(),
       createdAt: Date.now(),
     };
-
-    console.log("------Response message created--------", responseMessage);
 
     await runtime.messageManager.createMemory(responseMessage);
 
@@ -175,12 +152,6 @@ export class SonetClient extends DirectClient {
 
   setupRoutes() {
     this.app.post("/webhook", async (req, res) => {
-      // log incoming messages
-      console.log(
-        "Incoming webhook message:",
-        JSON.stringify(req.body, null, 2)
-      );
-
       // check if the webhook request contains a message
       // details on WhatsApp text message payload: https://developers.facebook.com/docs/whatsapp/cloud-api/webhooks/payload-examples#text-messages
       const message = req.body.entry?.[0]?.changes[0]?.value?.messages?.[0];
@@ -193,8 +164,6 @@ export class SonetClient extends DirectClient {
           req.body.entry?.[0].changes?.[0].value?.metadata?.phone_number_id;
 
         try {
-          console.log("Handling agent message: ", message.text.body);
-
           const response = await this.handleAgentMessage({
             text: message.text.body,
             userId: contact.wa_id,
@@ -204,7 +173,6 @@ export class SonetClient extends DirectClient {
           });
 
           const data = await response;
-          console.log("Response: ", data);
           data.forEach(async (mess) => {
             // send a reply message as per the docs here https://developers.facebook.com/docs/whatsapp/cloud-api/reference/messages
             await axios({
