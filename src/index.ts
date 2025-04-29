@@ -127,11 +127,11 @@ const startAgents = async () => {
   let charactersArg = args.characters || args.character;
   let characters = [character];
 
-  console.log("charactersArg", charactersArg);
+  // console.log("charactersArg", charactersArg);
   if (charactersArg) {
     characters = await loadCharacters(charactersArg);
   }
-  console.log("characters", characters);
+  // console.log("characters", characters);
   try {
     for (const character of characters) {
       await startAgent(character, directClient as SonetClient);
